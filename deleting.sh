@@ -1,5 +1,0 @@
-delete
-
-new file
-
-yes
