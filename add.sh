@@ -2,6 +2,9 @@
 
 
 
+###giting example for push
+
+
 
 SUM=0
 SUM=`expr $1 + $2`
