@@ -1,1000 +1,1000 @@
-   44  ls
-   45  ls -n-lt
-   46  ls -n -lt
-   47  ls -lt -n
-   48  history
-   49  clear
-   50  vi fabino.sh
-   51  sh fabino.sh 
-   52  vi fabino.sh 
-   53  sh fabino.sh 
-   54  vi fabino.sh 
-   55  sh fabino.sh 
-   56  vi fabino.sh 
-   57  clear
-   58  ls -lt
-   59  history
-   60  df -h .
-   61  free
-   62  uname  -r
-   63  uname -a
-   64  free
-   65  top
-   66  clear 
-   67  ps -ef
-   68  exit
-   69  ls
-   70  cd SHELL_SCRIPTS/
-   71  ls
-   72  vi as_addmux.sh
-   73  sh as_addmux.sh 7 8
-   74  vi as_addmux.sh 
-   75  sh as_addmux.sh 7 8
-   76  cd SHELL_SCRIPTS/
-   77  ls
-   78  vi as_addmux.sh 
-   79  clear
-   80  sh as_addmux.sh 2 9
-   81  vi as_addmux.sh 
-   82  sh as_addmux.sh 2 9
-   83  vi as_addmux.sh 
-   84  clear 
-   85  sh as_addmux.sh 8 2
-   86  sh as_addmux.sh 2 8
-   87  vi as_findfile.sh
-   88  sh as_findfile.sh add.sh
-   89  vi as_findfile.sh 
-   90  sh as_findfile.sh 
-   91  clear
-   92  vi as_findfile.sh 
-   93  sh as_findfile.sh 
-   94  ls
-   95  cd ..
-   96  ls
-   97  ls -lt try1
-   98  cd try1
-   99  pwd
-  100  /home/ec2-user/try1
-  101  cd ..
-  102  cd SHELL_SCRIPTS/
-  103  clear
-  104  sh as_findfile.sh 
-  105  mk dir a1
-  106  mkdir a1
-  107  ls
-  108  cd a1
-  109  ls
-  110  touch b1 b2
-  111  ls
-  112  cd ..
-  113  sh as_findfile.sh 
-  114  clear
-  115  vi as_findfile.sh 
-  116  sh as_findfile.sh 
-  117  vi as_findfile.sh 
-  118  sh as_findfile.sh 
-  119  clear
-  120  vi as_findfile.sh 
-  121  sh as_findfile.sh 
-  122  clear
-  123  cat add.sh
-  124  ls
-  125  cat add3.sh
-  126  vi as_find.sh
-  127  clear
-  128  vi as_find.sh
-  129  sh as_find.sh
-  130  clear
-  131  vi as_find.sh
-  132  sh as_find.sh
-  133  vi as_find.sh
-  134  sh as_fidn.sh
-  135  sh as_find.sh
-  136  vi as_find.sh
-  137  vi EMP
-  138  cat emp
-  139  cat EMP
-  140  vi EMP
-  141  clear
-  142  cat EMP
-  143  vi as_empage.sh
-  144  sh as_empage.sh 
-  145  vi as_empage.sh 
-  146  sh as_empage.sh EMP
-  147  sh as_empage.sh 
-  148  ls EMP
-  149  ls -lt EMP
-  150  pwd
-  151  /home/ec2-user/SHELL_SCRIPTS
-  152  sh as_empage.sh /home/ec2-user/SHELL_SCRIPTS/EMP
-  153  vi as_empage.sh 
-  154  sh as_empage.sh /home/ec2-user/SHELL_SCRIPTS/EMP
-  155  vi as_empage.sh 
-  156  sh as_empage.sh 
-  157  vi as_empage.sh 
-  158  sh as_empage.sh /home/ec2-user/SHELL_SCRIPTS/EMP
-  159  sh as_empage.sh 
-  160  vi as_empage.sh 
-  161  sh as_empage.sh 
-  162  clear
-  163  exit
-  164  cd SHELL_SCRIPTS/
-  165  ls
-  166  cat EMP
-  167  clear
-  168  cat EMP
-  169  vi EMP
-  170  ls
-  171  cat as_empage.sh 
-  172  vi EMP
-  173  cat EMP
-  174  sh as_empage.sh 
-  175  vi as_empage.sh 
-  176  sh as_empage.sh 
-  177  clear
-  178  sh -x as_empage.sh 
-  179  clear
-  180  vi as_empage.sh 
-  181  sh as_empage.sh 
+  122  sh evenodd.sh 
+  123  vi evenodd.sh
+  124  sh evenodd.sh 
+  125  vi evenodd.sh
+  126  sh evenodd.sh 
+  127  vi evenodd.sh
+  128  sh evenodd.sh 
+  129  vi evenodd.sh
+  130  sh evenodd.sh 
+  131  vi evenodd.sh
+  132  sh evenodd.sh 
+  133  vi evenodd.sh
+  134  sh evenodd.sh 
+  135  ls
+  136  vi bigest.sh
+  137  sh bigest.sh 33 54 23 46
+  138  vi bigest.sh
+  139  sh bigest.sh 33 54 23 46
+  140  vi bigest.sh
+  141  sh bigest.sh 33 54 23 46
+  142  vi service.sh
+  143  sh service.sh
+  144  vi service.sh
+  145  sh service.sh
+  146  vi service.sh
+  147  sh service.sh
+  148  vi service.sh
+  149  sh service.sh
+  150  ps -ef
+  151  sh service.sh
+  152  exit
+  153  ls
+  154  cd SHELL_SCRIPTS/
+  155  ls | wc -l
+  156  ls
+  157  ps -ef | grep httpd
+  158  system ctl start httpd
+  159  sudo system ctl start httpd
+  160  cd /var/log
+  161  ls
+  162  pwd
+  163  cd ..
+  164  cd ec2-user
+  165  cd ..
+  166  cd..
+  167  ls
+  168  cd /ec2-user/
+  169  cd /ec2-user
+  170  cd /ec2-user/dir1
+  171  pwd
+  172  cd dir1
+  173  exit
+  174  ls
+  175  cd SHELL_SCRIPTS/
+  176  vi del20.sh
+  177  touch A{1..100}
+  178  ls
+  179  ls -lt
+  180  clear
+  181  vi del20.sh 
   182  pwd
-  183  vi as_empage.sh 
-  184  sh as_empage.sh 
-  185  vi as_empage.sh 
-  186  clear
-  187  sh as_empage.sh 
-  188  vi as_empage.sh 
-  189  clear
-  190  sh as_empage.sh 
-  191  as_factall.sh
-  192  vi as_factall.sh
-  193  sh as_factall.sh 3 4 5
-  194  vi as_factall.sh 
-  195  sh as_factall.sh 3 4 5
-  196  clear
-  197  vi as_factall.sh 
-  198  sh as_factall.sh 3 4 5
-  199  vi as_factall.sh 
-  200  sh as_factall.sh 3 4 5
-  201  vi as_factall.sh 
-  202  sh as_factall.sh  3 4 5
-  203  c;ear
-  204  clear
-  205  vi as_factall.sh 
-  206  ls
-  207  cat sumof.sh 
-  208  cat as_factall.sh 
-  209  vi as_factall.sh 
-  210  sh as_factall.sh 3 4 5
-  211  clear
-  212  vi as_factall.sh 
-  213  sh as_factall.sh 3 4 5
-  214  vi as_factall.sh 
-  215  sh as_factall.sh 3 4 5
-  216  vi as_factall.sh 
-  217  sh as_factall.sh 3 4 5
-  218  vi as_factall.sh 
-  219  sh as_factall.sh 3 4 5
-  220  vi as_factall.sh 
-  221  sh as_factall.sh 3 4 5
-  222  clear
-  223  vi as_factall.sh 
-  224  sh as_factall.sh 3 4 5
-  225  exit
-  226  cd SHELL_SCRIPTS/
-  227  clear
-  228  cat add.sh
-  229  as_rever.sh
-  230  vi as_rever.sh
-  231  sh as_rever.sh add.sh
-  232  vi as_rever.sh
-  233  clear
-  234  cat add.sh
-  235  sh as_rever.sh add.sh
-  236  vi as_rever.sh
-  237  clear
-  238  cat add.sh
-  239  sh as_rever.sh add.sh
-  240  ls
-  241  vi e1.sh
-  242  sh e1.sh 2 34 54 2
-  243  vi e1.sh
-  244  sh e1.sh 2 34 54 2
-  245  vi e1.sh
-  246  sh e1.sh 2 34 54 2
-  247  vi e1.sh
-  248  sh e1.sh 2 34 54 2
-  249  vi e1.sh
-  250  sh e1.sh 2 34 54 2
-  251  vi e1.sh
-  252  sh e1.sh 2 34 54 2
-  253  vi e1.sh
-  254  clear
-  255  cat EMP
-  256  sort EMP
-  257  sort -r EMP
-  258  sort 2 43 35 33 65
-  259  vi e1.sh
-  260  sh e1.sh 23 44 12 43
-  261  vi e1.sh
-  262  sh e1.sh 23 44 12 43
-  263  vi e1.sh
-  264  sh e1.sh 23 44 12 43
-  265  vi e1.sh
-  266  sh e1.sh 23 44 12 43
-  267  clear
-  268  vi e1.sh
-  269  sh e1.sh 23 44 12 43
-  270  vi e1.sh
-  271  sh e1.sh 23 44 12 43
-  272  vi e1.sh
-  273  sh e1.sh 23 44 12 43
-  274  vi e1.sh
-  275  sh e1.sh 23 44 12 43
-  276  vi e1.sh
-  277  sh e1.sh 23 44 12 43
-  278  vi e1.sh
-  279  sh e1.sh 23 44 12 43
-  280  vi e1.sh
-  281  sh e1.sh 23 44 12 43
-  282  vi e1.sh
-  283  sh e1.sh 23 44 12 43
-  284  vi e1.sh
-  285  sh e1.sh 23 44 12 43
-  286  vi e1.sh
-  287  sh e1.sh 23 44 12 43
-  288  vi e1.sh
-  289  sh e1.sh 23 44 12 43
-  290  vi e1.sh
-  291  sh e1.sh 23 44 12 43
-  292  vi e1.sh
-  293  sh e1.sh 23 44 12 43
-  294  vi e1.sh
-  295  sh e1.sh 23 44 12 43
-  296  vi e1.sh
-  297  sh e1.sh 23 44 12 43
-  298  vi e1.sh
-  299  sh e1.sh 23 44 12 43
-  300  vi e1.sh
-  301  sh e1.sh 23 44 12 43
-  302  vi e1.sh
-  303  sh e1.sh 23 44 12 43
-  304  vi e1.sh
-  305  sh e1.sh 23 44 12 43
-  306  vi e1.sh
-  307  sh e1.sh 23 44 12 43
-  308  vi e1.sh
+  183  rm A{1..100}
+  184  ls
+  185  mkdir AA
+  186  ls
+  187  cd AA
+  188  touch A{1..100}
+  189  ls
+  190  pwd
+  191  cd..
+  192  cd ..
+  193  vi del20.sh 
+  194  sh del20.sh 
+  195  vi del20.sh 
+  196  sh del20.sh 
+  197  vi del20.sh 
+  198  sh del20.sh 
+  199  vi del20.sh 
+  200  sh del20.sh 
+  201  vi del20.sh 
+  202  sh del20.sh 
+  203  vi del20.sh 
+  204  sh del20.sh 
+  205  vi del20.sh 
+  206  sh del20.sh 
+  207  vi del20.sh 
+  208  sh del20.sh 
+  209  cd AA/
+  210  ls
+  211  ls -rt
+  212  ls -lt | head -20
+  213  ls -lt
+  214  ls -lt | head -20
+  215  cd..
+  216  clear
+  217  pwd
+  218  cd ..
+  219  vi del20.sh 
+  220  sh del20.sh 
+  221  vi del20.sh 
+  222  sh del20.sh 
+  223  cd A
+  224  cd AA/
+  225  ls
+  226  cd ..
+  227  rmdir AA
+  228  rm AA
+  229  rmdir AA
+  230  rm AA
+  231  ls
+  232  rm -rf AA
+  233  ls
+  234  clear
+  235  ls
+  236  vi case1.sh
+  237  sh case1.sh
+  238  vi case1.sh
+  239  sh case1.sh
+  240  vi as_case.sh
+  241  exit
+  242  cd SHELL_SCRIPTS/
+  243  ld
+  244  ls
+  245  clear
+  246  ls
+  247  clear
+  248  vi as_rever.sh
+  249  ls
+  250  clear
+  251  avi as_rever1.sh
+  252  vi as_rever1.sh
+  253  clear
+  254  vi as_rever1.sh
+  255  sh as_rever1.sh 
+  256  vi as_rever1.sh
+  257  ls
+  258  cd SHELL_SCRIPTS/
+  259  ls
+  260  clear
+  261  vi as_sorting.sh 
+  262  clear
+  263  vi as_triangle.sh 
+  264  cd SHELL_SCRIPTS/
+  265  ls
+  266  vi ip
+  267  cat ip
+  268  vi lines.sh
+  269  sh lines.sh
+  270  pwd
+  271  vi lines.sh
+  272  sh lines.sh
+  273  clear
+  274  ip
+  275  cat ip
+  276  clear
+  277  cat ip
+  278  vi lines.sh
+  279  sh lines.sh
+  280  vi lines.sh
+  281  sh lines.sh
+  282  vi lines.sh
+  283  sh lines.sh
+  284  vi lines.sh
+  285  sh -x lines.sh
+  286  sh lines.sh
+  287  vi lines.sh
+  288  sh lines.sh
+  289  vi lines.sh
+  290  sh lines.sh
+  291  vi lines.sh
+  292  sh lines.sh
+  293  vi lines.sh
+  294  sh lines.sh
+  295  vi lines.sh
+  296  sh lines.sh
+  297  vi lines.sh
+  298  sh lines.sh
+  299  vi lines.sh
+  300  sh lines.sh
+  301  clear
+  302  vi lines.sh
+  303  sh lines.sh
+  304  exit
+  305  cd SHELL_SCRIPTS/
+  306  ls
+  307  as_between.sh
+  308  cat as_empage.sh 
   309  clear
-  310  sh e1.sh 23 44 12 43
-  311  exit
-  312  cd SHELL_SCRIPTS/
-  313  clear
-  314  vi as_factall.sh 
-  315  sh as_factall.sh 3 4 5
-  316  vi as_factall.sh 
-  317  sh as_factall.sh 3 4 5
-  318  vi as_factall.sh 
-  319  sh as_factall.sh 3 4 5
-  320  vi as_factall.sh 
-  321  clear
-  322  sh as_factall.sh 3 4 5
-  323  ls
-  324  cd SHELL_SCRIPTS/
-  325  ls
-  326  clear
-  327  vi as_sorting.sh
-  328  sh as_sorting.sh 2 9 4 3 7
-  329  vi as_sorting.sh
-  330  sh as_sorting.sh 2 9 4 3 7
-  331  vi as_sorting.sh
-  332  sh as_sorting.sh 2 9 4 3 7
-  333  vi as_sorting.sh
-  334  sh as_sorting.sh 2 9 4 3 7
-  335  vi as_sorting.sh
-  336  sh as_sorting.sh 2 9 4 3 7
-  337  vi as_sorting.sh
-  338  sh as_sorting.sh 2 9 4 3 7
-  339  vi as_sorting.sh
-  340  sh as_sorting.sh 2 9 4 3 7
-  341  vi as_sorting.sh
-  342  sh as_sorting.sh 2 9 4 3 7
-  343  clear
-  344  vi as_sorting.sh
-  345  sh as_sorting.sh 2 9 4 3 7
+  310  cat as_empage.sh 
+  311  cd SHELL_SCRIPTS/
+  312  ls
+  313  clar
+  314  clear
+  315  eccho 
+  316  eccho "asddf" 2> ex.txt
+  317  ls
+  318  cat ex.txt
+  319  eccho "asdfs" 2 > ex.txt
+  320  vi join1.csv
+  321  vi join2.csv
+  322  cat join1.csv cat join2.scv
+  323  cat join1.csv join2.scv
+  324  cat join2.csv join1.csv
+  325  vi join1.csv
+  326  paste join1.csv join2.csv
+  327  clear
+  328  vi joinfiles.sh
+  329  pwd
+  330  vi joinfiles.sh
+  331  sh joinfiles.sh
+  332  vi joinfiles.sh
+  333  sh joinfiles.sh
+  334  vi joinfiles.sh
+  335  sh joinfiles.sh
+  336  vi joinfiles.sh
+  337  sh joinfiles.sh
+  338  clear
+  339  date
+  340  date | cut -d " " -f1
+  341  date +%u
+  342  date +%a
+  343  date +%a | tr '[:upper:]''[:lower:]'
+  344  date +%a | tr '[:upper:]' '[:lower:]'
+  345  date +%a | tr '[:lower:]' '[:upper:]'
   346  ls
-  347  vi as_sorting.sh
-  348  sh as_sorting.sh 2 9 4 3 7
-  349  clear
-  350  vi as_triangle.sh
-  351  sh as_triangle.sh
-  352  vi as_triangle.sh
-  353  sh as_triangle.sh
-  354  vi as_triangle.sh
-  355  sh as_triangle.sh
-  356  vi as_triangle.sh
-  357  sh as_triangle.sh
-  358  vi as_triangle.sh
-  359  sh as_triangle.sh
-  360  vi as_triangle.sh
-  361  sh as_triangle.sh
-  362  vi as_triangle.sh
-  363  sh as_triangle.sh
-  364  vi as_triangle.sh
-  365  sh as_triangle.sh
-  366  vi as_triangle.sh
-  367  sh as_triangle.sh
-  368  vi as_triangle.sh
-  369  sh as_triangle.sh
-  370  vi as_triangle.sh
-  371  sh as_triangle.sh
-  372  vi as_triangle.sh
-  373  sh as_triangle.sh
-  374  vi as_triangle.sh
-  375  sh as_triangle.sh
-  376  vi as_triangle.sh
-  377  sh as_triangle.sh
-  378  vi as_triangle.sh
-  379  sh as_triangle.sh
-  380  vi as_triangle.sh
-  381  sh as_triangle.sh
-  382  vi as_triangle.sh
-  383  sh as_triangle.sh
-  384  vi as_triangle.sh
-  385  sh as_triangle.sh
-  386  clear
-  387  vi as_triangle.sh
-  388  sh as_triangle.sh
-  389  vi as_triangle.sh
-  390  ls
-  391  cat as_rever.sh 
-  392  vi as_rever1.sh
-  393  sh as_rever1.sh
-  394  vi as_rever1.sh
-  395  sh as_rever1.sh
-  396  clear
-  397  vi as_rever1.sh
-  398  sh as_rever1.sh
-  399  clear
-  400  vi as_rever1.sh
-  401  sh as_rever1.sh
+  347  cat case1.sh
+  348  clear
+  349  vi case_date.sh
+  350  sh case_date.sh 
+  351  vi case_date.sh
+  352  sh case_date.sh 
+  353  as_case_search.sh
+  354  vi as_casesearch.sh
+  355  sh as_casesearch.sh 
+  356  vi as_casesearch.sh
+  357  sh as_casesearch.sh 
+  358  vi as_casesearch.sh
+  359  clear
+  360  ls
+  361  cat EMP
+  362  cat ex.txt
+  363  cat ip
+  364  cat join1.csv
+  365  cat as_join.sh
+  366  clar
+  367  clear
+  368  ls
+  369  cat as_join.sh
+  370  ls -lrt
+  371  cat lines.sh
+  372  vi print_between.sh
+  373  clear
+  374  sh print_between.sh 
+  375  vi print_between.sh
+  376  sh print_between.sh 
+  377  vi print_between.sh
+  378  sh print_between.sh 
+  379  vi print_between.sh
+  380  sh print_between.sh 
+  381  vi print_between.sh
+  382  sh print_between.sh 
+  383  clear
+  384  vi print_between.sh
+  385  sh print_between.sh 
+  386  history
+  387  clear
+  388  which git
+  389  git --version
+  390  sudo yum install git -y
+  391  clear
+  392  git --version
+  393  which git
+  394  whereis git
+  395  cd `
+  396  cd ~
+  397  ls
+  398  mkdir gitfile
+  399  ls
+  400  cd gitfile
+  401  git init
   402  ls
-  403  cat factorial.sh 
-  404  cat readfile.sh 
-  405  cat readline.sh 
-  406  clear
-  407  sh readline.sh add.sh
-  408  sh readfile.sh add.sh
-  409  clear
+  403  ls -lart
+  404  cd .git
+  405  ls
+  406  cd..
+  407  cd ..
+  408  clear
+  409  cat /.git
   410  ls
-  411  cat add.sh
-  412  cat equals.sh
-  413  vi as_join.sh
-  414  sh as_join.sh 
-  415  vi as_join.sh
-  416  sh as_join.sh 
-  417  vi as_join.sh
-  418  clear
-  419  sh as_join.sh 
-  420  vi as_join.sh
-  421  sh as_join.sh 
-  422  vi as_join.sh
-  423  sh as_join.sh 
-  424  vi as_join.sh
-  425  sh as_join.sh 
-  426  vi as_join.sh
-  427  sh as_join.sh 
-  428  vi as_join.sh
-  429  sh as_join.sh 
-  430  clear
-  431  vi as_join.sh
-  432  sh as_join.sh 
-  433  vi as_join.sh
-  434  sh as_join.sh 
-  435  vi as_join.sh
-  436  sh as_join.sh 
-  437  vi as_join.sh
-  438  sh as_join.sh 
-  439  vi as_join.sh
-  440  sh as_join.sh 
-  441  vi as_join.sh
-  442  sh as_join.sh 
-  443  vi as_join.sh
-  444  sh as_join.sh 
-  445  vi as_join.sh
-  446  sh as_join.sh 
-  447  vi as_join.sh
-  448  sh as_join.sh 
-  449  vi as_join.sh
-  450  sh as_join.sh 
-  451  vi as_join.sh
-  452  sh as_join.sh 
-  453  vi as_join.sh
-  454  sh as_join.sh 
-  455  vi as_join.sh
-  456  sh as_join.sh 
-  457  vi as_join.sh
-  458  sh as_join.sh 
-  459  vi as_join.sh
-  460  clear
-  461  sh as_join.sh 
-  462  ls
-  463  ls -lt
-  464  cat loopadd.sh
-  465  cat factorial.sh 
-  466  exit
-  467  cd SHELL_SCRIPTS/
-  468  clear
-  469  vi function.sh 
-  470  sh function.sh 4 5
-  471  vi function.sh 
-  472  sh function.sh 4 5
-  473  vi function.sh 
-  474  sh function.sh 4 5
-  475  vi function.sh 
-  476  exit
-  477  cd SHELL_SCRIPTS/
-  478  ls
-  479  vi as_join1.sh
-  480  sh as_join1.sh
-  481  vi as_join1.sh
-  482  sh as_join1.sh
-  483  vi as_join1.sh
-  484  sh as_join1.sh
-  485  vi as_join1.sh
-  486  sh as_join1.sh
-  487  vi as_join1.sh
-  488  sh as_join1.sh
-  489  vi as_join1.sh
-  490  sh as_join1.sh
-  491  vi as_join1.sh
-  492  sh as_join1.sh
-  493  vi as_join1.sh
-  494  sh as_join1.sh
-  495  clear
-  496  vi as_join1.sh
-  497  sh as_join1.sh
-  498  clear
-  499  vi as_join1.sh
-  500  sh as_join1.sh
-  501  vi function.sh
-  502  sh function.sh
-  503  sh function.sh 5
-  504  vi function.sh
-  505  sh function.sh 5
-  506  vi function.sh
-  507  sh function.sh 5
-  508  vi function.sh
-  509  sh function.sh 5
-  510  vi function.sh
-  511  sh function.sh 5 4
-  512  vi function.sh
-  513  cd S
-  514  cd SHELL_SCRIPTS/
-  515  ;s
-  516  ls
-  517  vi function.sh 
-  518  sh function.sh 4 5 6
-  519  vi evenodd.sh
-  520  sh evenodd.sh 
-  521  vi evenodd.sh
-  522  sh evenodd.sh 
-  523  vi evenodd.sh
-  524  sh evenodd.sh 
-  525  vi evenodd.sh
-  526  sh evenodd.sh 
-  527  vi evenodd.sh
-  528  sh evenodd.sh 
-  529  vi evenodd.sh
-  530  sh evenodd.sh 
-  531  vi evenodd.sh
-  532  sh evenodd.sh 
-  533  vi evenodd.sh
-  534  sh evenodd.sh 
-  535  ls
-  536  vi bigest.sh
-  537  sh bigest.sh 33 54 23 46
-  538  vi bigest.sh
-  539  sh bigest.sh 33 54 23 46
-  540  vi bigest.sh
-  541  sh bigest.sh 33 54 23 46
-  542  vi service.sh
-  543  sh service.sh
-  544  vi service.sh
-  545  sh service.sh
-  546  vi service.sh
-  547  sh service.sh
-  548  vi service.sh
-  549  sh service.sh
-  550  ps -ef
-  551  sh service.sh
-  552  exit
-  553  ls
-  554  cd SHELL_SCRIPTS/
-  555  ls | wc -l
-  556  ls
-  557  ps -ef | grep httpd
-  558  system ctl start httpd
-  559  sudo system ctl start httpd
-  560  cd /var/log
-  561  ls
-  562  pwd
-  563  cd ..
-  564  cd ec2-user
-  565  cd ..
-  566  cd..
-  567  ls
-  568  cd /ec2-user/
-  569  cd /ec2-user
-  570  cd /ec2-user/dir1
-  571  pwd
-  572  cd dir1
-  573  exit
-  574  ls
-  575  cd SHELL_SCRIPTS/
-  576  vi del20.sh
-  577  touch A{1..100}
-  578  ls
-  579  ls -lt
-  580  clear
-  581  vi del20.sh 
-  582  pwd
-  583  rm A{1..100}
-  584  ls
-  585  mkdir AA
-  586  ls
-  587  cd AA
-  588  touch A{1..100}
-  589  ls
-  590  pwd
-  591  cd..
-  592  cd ..
-  593  vi del20.sh 
-  594  sh del20.sh 
-  595  vi del20.sh 
-  596  sh del20.sh 
-  597  vi del20.sh 
-  598  sh del20.sh 
-  599  vi del20.sh 
-  600  sh del20.sh 
-  601  vi del20.sh 
-  602  sh del20.sh 
-  603  vi del20.sh 
-  604  sh del20.sh 
-  605  vi del20.sh 
-  606  sh del20.sh 
-  607  vi del20.sh 
-  608  sh del20.sh 
-  609  cd AA/
-  610  ls
-  611  ls -rt
-  612  ls -lt | head -20
-  613  ls -lt
-  614  ls -lt | head -20
-  615  cd..
-  616  clear
-  617  pwd
-  618  cd ..
-  619  vi del20.sh 
-  620  sh del20.sh 
-  621  vi del20.sh 
-  622  sh del20.sh 
-  623  cd A
-  624  cd AA/
-  625  ls
-  626  cd ..
-  627  rmdir AA
-  628  rm AA
-  629  rmdir AA
-  630  rm AA
-  631  ls
-  632  rm -rf AA
-  633  ls
-  634  clear
-  635  ls
-  636  vi case1.sh
-  637  sh case1.sh
-  638  vi case1.sh
-  639  sh case1.sh
-  640  vi as_case.sh
-  641  exit
-  642  cd SHELL_SCRIPTS/
-  643  ld
-  644  ls
-  645  clear
-  646  ls
-  647  clear
-  648  vi as_rever.sh
-  649  ls
-  650  clear
-  651  avi as_rever1.sh
-  652  vi as_rever1.sh
+  411  ls -lart
+  412  cd .git
+  413  ls
+  414  cat config
+  415  cd `
+  416  cd ~
+  417  ls
+  418  cd gitfile/
+  419  ls
+  420  cp ../SHELL_SCRIPTS/add.sh
+  421  cp /SHELL_SCRIPTS/add.sh
+  422  pwd
+  423  cp /home/ec2-user/add.sh
+  424  cp /home/ec2-user/SHELL_SCRIPTS/add.sh
+  425  cp ../home/ec2-user/SHELL_SCRIPTS/add.sh
+  426  cp /home/ec2-user/SHELL_SCRIPTS/add.sh
+  427  cp /home/ec2-user/SHELL_SCRIPTS/add.sh /../
+  428  clear
+  429  pwd
+  430  cp /home/ec2-user/gitfile
+  431  /home/ec2-user/gitfile
+  432  c /home/ec2-user/gitfile
+  433  /home/ec2-user/gitfile
+  434  clear
+  435  cp /home/ec2-user/gitfile
+  436  /home/ec2-user/gitfile
+  437  cp /home/ec2-user/gitfile  /home/ec2-user/SHELL_SCRIPTS/add.sh
+  438  ls
+  439  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  /..
+  440  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  ../
+  441  ls
+  442  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  /home/ec2-user/gitfile/
+  443  ls
+  444  cat add.sh
+  445  cat /home/ec2-user/SHELL_SCRIPTS/add.sh
+  446  clear
+  447  git status
+  448  exit
+  449  ls
+  450  cd gitfile/
+  451  ls
+  452  git version
+  453  which git
+  454  whereis git
+  455  clear
+  456  git status
+  457  git add add.sh
+  458  git status
+  459  git commit -m "adding two numbers script"
+  460  git status
+  461  git remote -v
+  462  git push
+  463  clear
+  464  git remote add origin https://github.com/Megharajget/SHELL.git
+  465  git push
+  466  git status
+  467  git push --set-upstream origin master
+  468  git config --global user.name "Megharaj"
+  469  git config --global user.email "megharajget@gmail.com"
+  470  git status
+  471  git push
+  472  git push --set-upstream origin master
+  473  clear
+  474  git remote add origin https://github.com/Megharajget/SHELL.git
+  475  git push
+  476  git branch -M main
+  477  git push -u origin main
+  478  clear
+  479  git push --set-upstream origin master
+  480  git status
+  481  git add add.sh
+  482  git staus
+  483  git status
+  484  git push
+  485  git push --set-upstream origin master
+  486  exit
+  487  cd gitfile/
+  488  ls
+  489  git status
+  490  git --version
+  491  git version
+  492  git status
+  493  git push --set-upstream origin master
+  494  git remote add origin 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
+  495  git push --set-upstream origin master
+  496  ls
+  497  git add add.sh
+  498  git status
+  499  git commit -m "adding"
+  500  git status
+  501  git push
+  502  git push --set-upstream origin master
+  503  git remote -v
+  504  git push -f origin master
+  505  git remote add origin https://github.com/Megharajget/SHELL.git
+  506  git remote add 
+  507  git init
+  508  clear
+  509  git remote -v
+  510  git push
+  511  git push --set-upstream origin master
+  512  ls
+  513  git status
+  514  git add add.sh
+  515  git status
+  516  git commit -m "adding"
+  517  exit
+  518  ls
+  519  cd SHELL_SCRIPTS/
+  520  ls
+  521  pwd
+  522  cd ..
+  523  cd gitfile/
+  524  cp /home/ec2-user/SHELL_SCRIPTS/basic1.sh /home/ec2-user/gitfile
+  525  ls
+  526  cp /home/ec2-user/SHELL_SCRIPTS/basic2.sh /home/ec2-user/gitfile
+  527  ls
+  528  clear
+  529  git add basic1.sh
+  530  git status
+  531  git commit -m "basic"
+  532  git status
+  533  git remote -v
+  534  git push
+  535  git --set-upstream origin master
+  536  git push --set-upstream origin master
+  537  exit
+  538  free try4
+  539  touch try4
+  540  ls -lrt
+  541  chmod 000 try4
+  542  ls -lrt
+  543  rm try4
+  544  df -h
+  545  clear
+  546  vi try11.sh
+  547  df -h
+  548  df -h.
+  549  vi try11.sh
+  550  clear
+  551  touch try22
+  552  ls -lrt
+  553  vi try11.sh
+  554  clear
+  555  cd gitfile/
+  556  git push --set-upstream origin master
+  557  clear
+  558  ls
+  559  exit
+  560  ls
+  561  cd gitfile/
+  562  clear
+  563  ls
+  564  git push
+  565  git add add.sh
+  566  git status
+  567  git push
+  568  clear
+  569  ls
+  570  git add add.sh
+  571  git commit -m "new file"
+  572  git push
+  573  git push --set-upstream origin main
+  574  clear
+  575  ls
+  576  git add add.sh
+  577  git commit -m  "adding new script"
+  578  git status
+  579  git push
+  580  git push --set-upstream origin main
+  581  clear
+  582  ls
+  583  git add basic2.sh 
+  584  git status
+  585  git commit -m "adding basic2 file"
+  586  git status
+  587  git push
+  588  clear
+  589  git remote add origin file Megharajget
+  590  git remote add origin https://github.com/Megharajget/SHELL.git
+  591  ls
+  592  clear
+  593  vi add.sh
+  594  git status
+  595  git add add.sh
+  596  git status
+  597  git commit -m "added spaces"
+  598  git status
+  599  git remote -v
+  600  git push
+  601  history
+  602  clear
+  603  ls
+  604  cd gitfile/
+  605  ls
+  606  pwd
+  607  cp /home/ec2-user/gitfile /home/ec2-user/SHELL_SCRIPTS/
+  608  cp /home/ec2-user/gitfile /home/ec2-user/SHELL_SCRIPTS/*
+  609  ls
+  610  cp */ /home/ec2-user/SHELL_SCRIPTS/
+  611  cp *  /home/ec2-user/SHELL_SCRIPTS/
+  612  ls
+  613  cp /home/ec2-user/SHELL_SCRIPTS/  *
+  614  cp ../SHELL_SCRIPTS/*
+  615  ls
+  616  cp /home/ec2-user/SHELL_SCRIPTS/  
+  617  cp /home/ec2-user/SHELL_SCRIPTS/  ..
+  618  cp /home/ec2-user/SHELL_SCRIPTS/  ../
+  619  cp /home/ec2-user/SHELL_SCRIPTS/  /home/ec2-user/gitfile/
+  620  cp /home/ec2-user/SHELL_SCRIPTS/*  /home/ec2-user/gitfile/
+  621  ls
+  622  clear
+  623  git status
+  624  git add
+  625  clear
+  626  git status
+  627  git add e1.sh
+  628  git status
+  629  git reset
+  630  git status
+  631  git add e1.sh
+  632  git status
+  633  git commit -m "adding new file"
+  634  git status
+  635  git reset
+  636  git status
+  637  git reset
+  638  git status
+  639  git undo
+  640  git push
+  641  clear
+  642  history
+  643  history > history.txt
+  644  cat history.txt 
+  645  git status
+  646  git add *
+  647  git status
+  648  git commit -m "adding all scripts"
+  649  git staus
+  650  git status
+  651  git remote -v
+  652  git push
   653  clear
-  654  vi as_rever1.sh
-  655  sh as_rever1.sh 
-  656  vi as_rever1.sh
-  657  ls
-  658  cd SHELL_SCRIPTS/
-  659  ls
-  660  clear
-  661  vi as_sorting.sh 
-  662  clear
-  663  vi as_triangle.sh 
-  664  cd SHELL_SCRIPTS/
-  665  ls
-  666  vi ip
-  667  cat ip
-  668  vi lines.sh
-  669  sh lines.sh
-  670  pwd
-  671  vi lines.sh
-  672  sh lines.sh
-  673  clear
-  674  ip
-  675  cat ip
-  676  clear
-  677  cat ip
-  678  vi lines.sh
-  679  sh lines.sh
-  680  vi lines.sh
-  681  sh lines.sh
-  682  vi lines.sh
-  683  sh lines.sh
-  684  vi lines.sh
-  685  sh -x lines.sh
-  686  sh lines.sh
-  687  vi lines.sh
-  688  sh lines.sh
-  689  vi lines.sh
-  690  sh lines.sh
-  691  vi lines.sh
-  692  sh lines.sh
-  693  vi lines.sh
-  694  sh lines.sh
-  695  vi lines.sh
-  696  sh lines.sh
-  697  vi lines.sh
-  698  sh lines.sh
-  699  vi lines.sh
-  700  sh lines.sh
-  701  clear
-  702  vi lines.sh
-  703  sh lines.sh
-  704  exit
-  705  cd SHELL_SCRIPTS/
-  706  ls
-  707  as_between.sh
-  708  cat as_empage.sh 
-  709  clear
-  710  cat as_empage.sh 
-  711  cd SHELL_SCRIPTS/
-  712  ls
-  713  clar
-  714  clear
-  715  eccho 
-  716  eccho "asddf" 2> ex.txt
-  717  ls
-  718  cat ex.txt
-  719  eccho "asdfs" 2 > ex.txt
-  720  vi join1.csv
-  721  vi join2.csv
-  722  cat join1.csv cat join2.scv
-  723  cat join1.csv join2.scv
-  724  cat join2.csv join1.csv
-  725  vi join1.csv
-  726  paste join1.csv join2.csv
-  727  clear
-  728  vi joinfiles.sh
-  729  pwd
-  730  vi joinfiles.sh
-  731  sh joinfiles.sh
-  732  vi joinfiles.sh
-  733  sh joinfiles.sh
-  734  vi joinfiles.sh
-  735  sh joinfiles.sh
-  736  vi joinfiles.sh
-  737  sh joinfiles.sh
-  738  clear
-  739  date
-  740  date | cut -d " " -f1
-  741  date +%u
-  742  date +%a
-  743  date +%a | tr '[:upper:]''[:lower:]'
-  744  date +%a | tr '[:upper:]' '[:lower:]'
-  745  date +%a | tr '[:lower:]' '[:upper:]'
-  746  ls
-  747  cat case1.sh
+  654  exit
+  655  cd gitfile/
+  656  clear
+  657  cat ~/.ssh/id_rsa.pub
+  658  clear
+  659  git push
+  660  ls
+  661  git pull
+  662  ls
+  663  cat python 
+  664  git pull
+  665  clear
+  666  git push
+  667  git log
+  668  clear
+  669  ls
+  670  vi deleting.sh
+  671  git status
+  672  git push
+  673  git add deleting.sh 
+  674  git status
+  675  git commit -m "deleting files"
+  676  git push
+  677  ls
+  678  clear
+  679  ls
+  680  git rm deleting.sh
+  681  ls
+  682  git push
+  683  ls
+  684  git rm -f deleting.sh
+  685  git status
+  686  git commit -m "deleting fiels"
+  687  git push
+  688  clear
+  689  touch qw1
+  690  git status
+  691  git add qw1 
+  692  git sataus
+  693  git status
+  694  git commit -m "deleting"
+  695  git push
+  696  rm q1
+  697  rm qw1
+  698  ls
+  699  git status
+  700  git push
+  701  git commit -m "deleteing"
+  702  git status
+  703  git add*
+  704  git add *
+  705  git status
+  706  git commmit -m "deleting"
+  707  clear
+  708  git push
+  709  git status
+  710  git add *
+  711  git status
+  712  git commit -m "delete"
+  713  git add *
+  714  git staus
+  715  git commit -m "delete"
+  716  clear
+  717  git rm qw1
+  718  git status
+  719  git commit -m "deleting"
+  720  git push
+  721  clear
+  722  ls
+  723  git push
+  724  git pull
+  725  ls
+  726  clear
+  727  ls
+  728  git pull
+  729  ls
+  730  exit
+  731  ls
+  732  cd gitfile/
+  733  ls
+  734  cd ~
+  735  ls
+  736  cd /.ssh/
+  737  cd .ssh
+  738  ls
+  739  ls -lart
+  740  ls
+  741  cd ~
+  742  ls
+  743  cd ~/.ssh/
+  744  ls
+  745  ls -lart
+  746  cat id_rsa.pub
+  747  cd `
   748  clear
-  749  vi case_date.sh
-  750  sh case_date.sh 
-  751  vi case_date.sh
-  752  sh case_date.sh 
-  753  as_case_search.sh
-  754  vi as_casesearch.sh
-  755  sh as_casesearch.sh 
-  756  vi as_casesearch.sh
-  757  sh as_casesearch.sh 
-  758  vi as_casesearch.sh
+  749  cd ~
+  750  ls
+  751  cat  .ssh/id_rsa.pub
+  752  ls
+  753  cd ~/ .ssh/
+  754  ls
+  755  cd ~/.ssh/
+  756  ls -lrt
+  757  ls -lart
+  758  cat authorized_keys 
   759  clear
-  760  ls
-  761  cat EMP
-  762  cat ex.txt
-  763  cat ip
-  764  cat join1.csv
-  765  cat as_join.sh
-  766  clar
-  767  clear
-  768  ls
-  769  cat as_join.sh
-  770  ls -lrt
-  771  cat lines.sh
-  772  vi print_between.sh
-  773  clear
-  774  sh print_between.sh 
-  775  vi print_between.sh
-  776  sh print_between.sh 
-  777  vi print_between.sh
-  778  sh print_between.sh 
-  779  vi print_between.sh
-  780  sh print_between.sh 
-  781  vi print_between.sh
-  782  sh print_between.sh 
-  783  clear
-  784  vi print_between.sh
-  785  sh print_between.sh 
-  786  history
-  787  clear
-  788  which git
-  789  git --version
-  790  sudo yum install git -y
-  791  clear
-  792  git --version
-  793  which git
-  794  whereis git
-  795  cd `
-  796  cd ~
-  797  ls
-  798  mkdir gitfile
+  760  clear
+  761  cd gitfile/
+  762  ls
+  763  git remote -v
+  764  git remote set-url origin git@github.com:Megharajget/SHELL.git
+  765  git remote -v
+  766  cat ~/.ssh/
+  767  cat ~/.ssh/authorized_keys 
+  768  clear
+  769  ls
+  770  git status
+  771  vi add.sh
+  772  git status
+  773  git add add.sh
+  774  git status
+  775  git commit -m "modified files"
+  776  git status
+  777  clear
+  778  git push
+  779  git remote -v
+  780  cd ~
+  781  ls
+  782  cd .shh/
+  783  cd /.ssh/
+  784  cd ~/.ssh/
+  785  ls
+  786  cat known_hosts 
+  787  cat authorized_keys 
+  788  ls -lart
+  789  cd .
+  790  ls
+  791  cd .
+  792  ls
+  793  cd ..
+  794  cd ~/.ssh/
+  795  clear
+  796  ls
+  797  cd..
+  798  cd ..
   799  ls
-  800  cd gitfile
-  801  git init
-  802  ls
-  803  ls -lart
-  804  cd .git
-  805  ls
-  806  cd..
-  807  cd ..
-  808  clear
-  809  cat /.git
-  810  ls
-  811  ls -lart
-  812  cd .git
-  813  ls
-  814  cat config
-  815  cd `
-  816  cd ~
-  817  ls
-  818  cd gitfile/
-  819  ls
-  820  cp ../SHELL_SCRIPTS/add.sh
-  821  cp /SHELL_SCRIPTS/add.sh
-  822  pwd
-  823  cp /home/ec2-user/add.sh
-  824  cp /home/ec2-user/SHELL_SCRIPTS/add.sh
-  825  cp ../home/ec2-user/SHELL_SCRIPTS/add.sh
-  826  cp /home/ec2-user/SHELL_SCRIPTS/add.sh
-  827  cp /home/ec2-user/SHELL_SCRIPTS/add.sh /../
-  828  clear
-  829  pwd
-  830  cp /home/ec2-user/gitfile
-  831  /home/ec2-user/gitfile
-  832  c /home/ec2-user/gitfile
-  833  /home/ec2-user/gitfile
+  800  cd ~/.ssh/..
+  801  ls
+  802  cd ~/.ssh/
+  803  ls
+  804  cat authorized_keys 
+  805  cd ~
+  806  cd gitfile/
+  807  clear
+  808  git pull
+  809  cd gitfile/
+  810  clear
+  811  git remote -v
+  812  git push
+  813  git remote set-url origin git@github.com:Megharajget/SHELL.git
+  814  git remote -v
+  815  git push
+  816  cd ~/.ssh/
+  817  ls -lrt
+  818  ls -lart
+  819  cat id_rsa.pub
+  820  find .-name id_rsa.pub
+  821  find . -name id_rsa.pub
+  822  find . -name add.sh
+  823  cd ~
+  824  find . -name add.sh
+  825  find . -name id_rsa.pub
+  826  clear
+  827  ssh-keygen
+  828  ls
+  829  cd gitfile/
+  830  clear
+  831  car ~/.ssh/id_rsa.pub
+  832  car ~/.ssh/id_rsa
+  833  cat ~/.ssh/id_rsa.pub
   834  clear
-  835  cp /home/ec2-user/gitfile
-  836  /home/ec2-user/gitfile
-  837  cp /home/ec2-user/gitfile  /home/ec2-user/SHELL_SCRIPTS/add.sh
-  838  ls
-  839  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  /..
-  840  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  ../
-  841  ls
-  842  cp /home/ec2-user/SHELL_SCRIPTS/add.sh  /home/ec2-user/gitfile/
-  843  ls
-  844  cat add.sh
-  845  cat /home/ec2-user/SHELL_SCRIPTS/add.sh
+  835  cd gitfile/
+  836  clear
+  837  git push
+  838  git pull
+  839  git branch
+  840  git branch new1
+  841  git branch
+  842  git push
+  843  git branch
+  844  git push
+  845  git pull
   846  clear
-  847  git status
-  848  exit
-  849  ls
-  850  cd gitfile/
+  847  git push --set-upstream origin new1
+  848  git branch
+  849  git checkout new1
+  850  git branch
   851  ls
-  852  git version
-  853  which git
-  854  whereis git
-  855  clear
+  852  touch start3
+  853  touch stop3
+  854  git status
+  855  git add *
   856  git status
-  857  git add add.sh
-  858  git status
-  859  git commit -m "adding two numbers script"
-  860  git status
-  861  git remote -v
-  862  git push
-  863  clear
-  864  git remote add origin https://github.com/Megharajget/SHELL.git
-  865  git push
-  866  git status
-  867  git push --set-upstream origin master
-  868  git config --global user.name "Megharaj"
-  869  git config --global user.email "megharajget@gmail.com"
-  870  git status
-  871  git push
-  872  git push --set-upstream origin master
-  873  clear
-  874  git remote add origin https://github.com/Megharajget/SHELL.git
-  875  git push
-  876  git branch -M main
-  877  git push -u origin main
-  878  clear
-  879  git push --set-upstream origin master
-  880  git status
-  881  git add add.sh
-  882  git staus
-  883  git status
-  884  git push
-  885  git push --set-upstream origin master
-  886  exit
-  887  cd gitfile/
-  888  ls
-  889  git status
-  890  git --version
-  891  git version
-  892  git status
-  893  git push --set-upstream origin master
-  894  git remote add origin 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
-  895  git push --set-upstream origin master
-  896  ls
-  897  git add add.sh
-  898  git status
-  899  git commit -m "adding"
-  900  git status
-  901  git push
-  902  git push --set-upstream origin master
-  903  git remote -v
-  904  git push -f origin master
-  905  git remote add origin https://github.com/Megharajget/SHELL.git
-  906  git remote add 
-  907  git init
-  908  clear
-  909  git remote -v
-  910  git push
-  911  git push --set-upstream origin master
-  912  ls
-  913  git status
-  914  git add add.sh
-  915  git status
-  916  git commit -m "adding"
-  917  exit
-  918  ls
-  919  cd SHELL_SCRIPTS/
-  920  ls
-  921  pwd
-  922  cd ..
-  923  cd gitfile/
-  924  cp /home/ec2-user/SHELL_SCRIPTS/basic1.sh /home/ec2-user/gitfile
-  925  ls
-  926  cp /home/ec2-user/SHELL_SCRIPTS/basic2.sh /home/ec2-user/gitfile
-  927  ls
+  857  git commit -m "testing branch1"
+  858  git push
+  859  clear
+  860  git branch
+  861  git branch new2
+  862  git branch new3
+  863  git branch new4
+  864  git branch new5
+  865  git branch new6
+  866  git branch
+  867  git push --set-upstream origin new2
+  868  git checkout new2
+  869  git branch
+  870  clear
+  871  ls
+  872  git start4
+  873  touch start4
+  874  touch stop4
+  875  git status
+  876  git add *
+  877  git statuss
+  878  git status
+  879  git commit -m "testing branch2"
+  880  git push
+  881  clear
+  882  git branch
+  883  git checkout master
+  884  git checkout main
+  885  git checkout new2
+  886  git log --oneline
+  887  clear
+  888  git checkout origin
+  889  git checkout main
+  890  git push
+  891  git pull
+  892  git branch
+  893  git tag
+  894  git merge new1
+  895  git push
+  896  clera
+  897  clear
+  898  git merge new2
+  899  git push
+  900  git pull
+  901  git tag 
+  902  git tag ver7
+  903  git tag
+  904  git push
+  905  git push --tag ver2
+  906  git push tag ver2
+  907  clear
+  908  git branch
+  909  git checkout new3
+  910  git branch
+  911  git push
+  912  git push --set-upstream origin new3
+  913  git push
+  914  gitu pull
+  915  git pull
+  916  exit
+  917  cd gitfile/
+  918  clear
+  919  git status
+  920  git pull
+  921  ls
+  922  touch start1
+  923  touch stop1
+  924  ls
+  925  git status
+  926  git add *
+  927  git status
   928  clear
-  929  git add basic1.sh
-  930  git status
-  931  git commit -m "basic"
-  932  git status
-  933  git remote -v
-  934  git push
-  935  git --set-upstream origin master
-  936  git push --set-upstream origin master
-  937  exit
-  938  free try4
-  939  touch try4
-  940  ls -lrt
-  941  chmod 000 try4
-  942  ls -lrt
-  943  rm try4
-  944  df -h
-  945  clear
-  946  vi try11.sh
-  947  df -h
-  948  df -h.
-  949  vi try11.sh
-  950  clear
-  951  touch try22
-  952  ls -lrt
-  953  vi try11.sh
+  929  git commit -m "tag here 1"
+  930  git push
+  931  git tag ver1
+  932  git push
+  933  git push --tag
+  934  touch start2
+  935  touch stop2
+  936  git status
+  937  git add *
+  938  git status
+  939  git commit -m "argument after tag"
+  940  git push
+  941  clear
+  942  git push
+  943  git status
+  944  git tag
+  945  git status
+  946  ls
+  947  git push
+  948  clear
+  949  git log --oneline
+  950  git switch -
+  951  git checkout 944d4ef7e2f08575377aeaf8c955957b2815d135
+  952  git log --oneline
+  953  git switch -
   954  clear
-  955  cd gitfile/
-  956  git push --set-upstream origin master
-  957  clear
-  958  ls
-  959  exit
-  960  ls
-  961  cd gitfile/
-  962  clear
-  963  ls
-  964  git push
-  965  git add add.sh
-  966  git status
-  967  git push
-  968  clear
-  969  ls
-  970  git add add.sh
-  971  git commit -m "new file"
-  972  git push
-  973  git push --set-upstream origin main
-  974  clear
+  955  git log --online
+  956  git log --oneline
+  957  git checkout 944d4ef7e2f08575377aeaf8c955957b2815d135
+  958  git log --oneline
+  959  clear
+  960  git checkout master
+  961  git switch -
+  962  git tag
+  963  git tag ver2
+  964  git tag ver3
+  965  git tag
+  966  git tag ver4
+  967  git tag ver5
+  968  git tag ver6
+  969  git tag
+  970  clear
+  971  git push origin tag ver2
+  972  clear
+  973  ls
+  974  cd gitfile/
   975  ls
-  976  git add add.sh
-  977  git commit -m  "adding new script"
-  978  git status
-  979  git push
-  980  git push --set-upstream origin main
-  981  clear
-  982  ls
-  983  git add basic2.sh 
-  984  git status
-  985  git commit -m "adding basic2 file"
-  986  git status
-  987  git push
-  988  clear
-  989  git remote add origin file Megharajget
-  990  git remote add origin https://github.com/Megharajget/SHELL.git
-  991  ls
-  992  clear
-  993  vi add.sh
-  994  git status
-  995  git add add.sh
-  996  git status
-  997  git commit -m "added spaces"
-  998  git status
-  999  git remote -v
- 1000  git push
- 1001  history
- 1002  clear
- 1003  ls
- 1004  cd gitfile/
- 1005  ls
- 1006  pwd
- 1007  cp /home/ec2-user/gitfile /home/ec2-user/SHELL_SCRIPTS/
- 1008  cp /home/ec2-user/gitfile /home/ec2-user/SHELL_SCRIPTS/*
- 1009  ls
- 1010  cp */ /home/ec2-user/SHELL_SCRIPTS/
- 1011  cp *  /home/ec2-user/SHELL_SCRIPTS/
- 1012  ls
- 1013  cp /home/ec2-user/SHELL_SCRIPTS/  *
- 1014  cp ../SHELL_SCRIPTS/*
- 1015  ls
- 1016  cp /home/ec2-user/SHELL_SCRIPTS/  
- 1017  cp /home/ec2-user/SHELL_SCRIPTS/  ..
- 1018  cp /home/ec2-user/SHELL_SCRIPTS/  ../
- 1019  cp /home/ec2-user/SHELL_SCRIPTS/  /home/ec2-user/gitfile/
- 1020  cp /home/ec2-user/SHELL_SCRIPTS/*  /home/ec2-user/gitfile/
- 1021  ls
- 1022  clear
+  976  clear
+  977  git pull
+  978  git push
+  979  clear
+  980  git branch
+  981  git checkout main
+  982  git checkout origin
+  983  git checkout master
+  984  git branch main
+  985  git branch origin
+  986  git branch
+  987  git tag
+  988  git branch new1
+  989  git checkout new1
+  990  git branch
+  991  git checkout master
+  992  git branch main
+  993  git branch chekout master
+  994  git branch chekout origin
+  995  git  branch
+  996  git checkout master
+  997  git checkout origin
+  998  clear
+  999  ls
+ 1000  git status
+ 1001  lsls
+ 1002  ls
+ 1003  cd gitfile/
+ 1004  clear
+ 1005  git diff main new2
+ 1006  git diff main new4
+ 1007  git diff main new2
+ 1008  clar
+ 1009  git log new1 main
+ 1010  clear
+ 1011  git push
+ 1012  git pull
+ 1013  git revert 160bc99fb3e4bf3157147c5eb8e2af12fd5d3c63
+ 1014  git status
+ 1015  git push
+ 1016  git show 160bc99fb3e4bf3157147c5eb8e2af12fd5d3c63
+ 1017  clear
+ 1018  git log --stat
+ 1019  clear
+ 1020  git diff --staged
+ 1021  git status
+ 1022  touch start 11
  1023  git status
- 1024  git add
- 1025  clear
- 1026  git status
- 1027  git add e1.sh
- 1028  git status
- 1029  git reset
- 1030  git status
- 1031  git add e1.sh
- 1032  git status
- 1033  git commit -m "adding new file"
- 1034  git status
- 1035  git reset
- 1036  git status
- 1037  git reset
- 1038  git status
- 1039  git undo
- 1040  git push
- 1041  clear
- 1042  history
- 1043  history > history.txt
+ 1024  rm 11
+ 1025  git status
+ 1026  rv start start11
+ 1027  rm start start11
+ 1028  mv start start11
+ 1029  git mv start start11
+ 1030  log -p
+ 1031  git diff --staged
+ 1032  clear
+ 1033  git status
+ 1034  git push
+ 1035  ls
+ 1036  touch start11
+ 1037  git status
+ 1038  git diff --staged
+ 1039  git status
+ 1040  git add *
+ 1041  git status
+ 1042  clear
+ 1043  git diff --staged
+ 1044  git status
+ 1045  clear
+ 1046  git status
+ 1047  git diff --staged
+ 1048  git status
+ 1049  clear
+ 1050  git status
+ 1051  git reset HEAD 
+ 1052  git status
+ 1053  git add -p
+ 1054  git add *
+ 1055  git status
+ 1056  git reset HEAD
+ 1057  git status
+ 1058  clear
+ 1059  git add *
+ 1060  git status
+ 1061  git commit -m "addddd"
+ 1062  git status
+ 1063  git reset
+ 1064  git status
+ 1065  git reset HEAD
+ 1066  git status
+ 1067  git commit --amend
+ 1068  clear
+ 1069  git status
+ 1070  git push
+ 1071  git log --graph --online
+ 1072  git log --graph --oneline
+ 1073  git log --graph --oneline --all
+ 1074  clar
+ 1075  clear
+ 1076  git remote show origin
+ 1077  git branch -r
+ 1078  git branch
+ 1079  clear
+ 1080  git reset --hard b5b2b0939ac03332783122d5340590fe8f5ed745
+ 1081  git puhs
+ 1082  git push
+ 1083  git push if
+ 1084  git push -f
+ 1085  git git 
+ 1086  git reset --mixed test9
+ 1087  git reset --soft HEAD~1
+ 1088  git puhs
+ 1089  git push
+ 1090  git push -f
+ 1091  clear
+ 1092  git branch
+ 1093  git cherry-pick 4eee00c797cb517ea99bb5a379c1e47992a6fac9
+ 1094  clear
+ 1095  history
+ 1096  clear
+ 1097  find .-name "stop5"
+ 1098  find . -name "stop5"
+ 1099  whereis stop5
+ 1100  cd ~
+ 1101  find . -name "stop5"
+ 1102  rm -rf
+ 1103  ps -ef
+ 1104  clear
+ 1105  ls -lrt
+ 1106  ls -lrt | grep "dir2"
+ 1107  ls -lrt | awk -F " "'{print $3}'
+ 1108  ls -lrt | awk -F " " '{print $3}'
+ 1109  histroy
+ 1110  histry
+ 1111  histroy
+ 1112  clear
+ 1113  histroy
+ 1114  history
+ 1115  ls
+ 1116  cd gitfile/
+ 1117  clear
+ 1118  history
+ 1119  ls
+ 1120  cat history.txt 
+ 1121  history > history.txt
